@@ -1,0 +1,19 @@
+{
+  "main": "bundle/ngx-datatable.umd.min.js",
+  "module": "src/index.js",
+  "js:next": "src/index.js",
+  "typings": "src/index.d.ts",
+  "scripts": { },
+  "dependencies": { },
+  "peerDependencies": {
+    "@angular/common": "^2.4.1",
+    "@angular/compiler": "^2.4.1",
+    "@angular/core": "^2.4.1",
+    "@angular/platform-browser": "^2.4.1",
+    "@angular/platform-browser-dynamic": "^2.4.1",
+    "zone.js": "^0.7.2",
+    "rxjs": "^5.0.1",
+    "core-js": "^2.4.0"
+  },
+  "devDependencies": { }
+}

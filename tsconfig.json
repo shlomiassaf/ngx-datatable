@@ -18,17 +18,26 @@
     "allowSyntheticDefaultImports": true,
     "suppressExcessPropertyErrors": true,
     "suppressImplicitAnyIndexErrors": true,
-    "outDir": "dist",
-    "declarationDir": "release",
     "lib": ["es6", "dom"],
-    "skipLibCheck": true
+    "baseUrl": "./src",
+    "paths": {
+      "@swimlane/ngx-datatable": [ "lib/index" ],
+      "@swimlane/ngx-datatable/*": [ "lib/*" ]
+    },
+    "types": [
+      "jasmine",
+      "node",
+      "selenium-webdriver",
+      "source-map",
+      "uglify-js",
+      "webpack"
+    ]
   },
-  "files": [
-    "src/declarations.d.ts",
-    "src/index.ts"
-  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist",
+    "src/compiled",
+    "src/demo/main.browser.aot.ts"
   ],
   "compileOnSave": false,
   "buildOnSave": false,

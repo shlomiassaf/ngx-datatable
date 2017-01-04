@@ -3,7 +3,9 @@ node_modules/
 npm-debug.log
 compiled/
 dist/
+dist_package/
 coverage/
 .idea
 yarn.lock
 /.vscode
+src/compiled
